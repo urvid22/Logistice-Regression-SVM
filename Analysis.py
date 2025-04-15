@@ -3,7 +3,6 @@
 
 # In[54]:
 
-
 import pandas as pd
 import statsmodels.api as sm
 from sklearn.linear_model import LogisticRegression
@@ -21,12 +20,9 @@ des = pd.read_excel(descriptor)
 df = pd.read_excel(dataurl)
 df
 
-
 # In[55]:
 
-
 des
-
 
 # In[56]:
 
@@ -36,7 +32,6 @@ df.dropna(inplace=True)
 
 
 # In[57]:
-
 
 df = df.drop(columns = "Z_CostContact")
 df = df.drop(columns = "Z_Revenue")
@@ -55,7 +50,6 @@ df
 
 
 # In[58]:
-
 
 X = df[['NumWebVisitsMonth','MntTotalExpense','TotalPurchases','AccepetedCmp1-5']]
 y = df['Response'] 
@@ -135,9 +129,7 @@ print(f"Recall: {recall_svm}")
 print("Confusion Matrix:")
 print(conf_matrix_svm)
 
-
 # In[63]:
-
 
 df = df.drop(columns = "Education")
 df = df.drop(columns = "Marital_Status")
@@ -148,4 +140,3 @@ plt.figure(figsize=(10, 6))
 sns.heatmap(df.corr(), annot=True, cmap='flare')
 plt.title('Correlation Heatmap')
 plt.show()
-
