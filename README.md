@@ -11,27 +11,27 @@ This project explores predictive modeling for a marketing campaign dataset, wher
 After evaluating multiple models, here are the key performance metrics:
 
 ### Logistic Regression Model (First Feature Set):
-- **Accuracy**: **`XX%`** *(Replace with the actual value)*
-- **Precision**: **`XX%`**
-- **Recall**: **`XX%`**
-- **Confusion Matrix**: Available in `results/logistic_regression_conf_matrix.txt`
+- **Accuracy**: 
+- **Precision**: 
+- **Recall**: 
+- **Confusion Matrix**: 
 
 ### Support Vector Machine (SVM) Model (First Feature Set):
-- **Accuracy**: **`XX%`**
-- **Precision**: **`XX%`**
-- **Recall**: **`XX%`**
-- **Confusion Matrix**: Available in `results/svm_conf_matrix.txt`
+- **Accuracy**: 
+- **Precision**: 
+- **Recall**: 
+- **Confusion Matrix**: 
 
 ### Logistic Regression Model (Second Feature Set - Income Only):
-- **Accuracy**: **`XX%`**
-- **Precision**: **`XX%`**
-- **Recall**: **`XX%`**
-- **Confusion Matrix**: Available in `results/logistic_regression_income_conf_matrix.txt`
+- **Accuracy**: 
+- **Precision**:
+- **Recall**: 
+- **Confusion Matrix**: 
 
 ### Support Vector Machine (SVM) Model (Second Feature Set - Income Only):
-- **Accuracy**: **`XX%`**
-- **Precision**: **`XX%`**
-- **Recall**: **`XX%`**
-- **Confusion Matrix**: Available in `results/svm_income_conf_matrix.txt`
+- **Accuracy**: 
+- **Precision**: 
+- **Recall**: 
+- **Confusion Matrix**: 
 
 ---
